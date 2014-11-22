@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<div align="center">
+  <p><font size="+5"> Uj user letrehozasa</font></p>
+  <p><font size="+3">Szemelyes adatok</font><br>
+    * - kotelezo kitolteni </p>
+  <form name="form_getdata_register" method="post" action="register_user.php">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+        <td width="20%">* Nick</td>
+        <td width="80%"><input name="t_nick" type="text" id="t_nick" size="12" maxlength="10"></td>
+      </tr>
+      <tr> 
+        <td>jelszo</td>
+        <td><input name="t_passw" type="text" id="t_passw" maxlength="20"></td>
+      </tr>
+      <tr> 
+        <td> jelszo megegyszer</td>
+        <td><input name="t_passw2" type="password" id="t_passw2" maxlength="20"></td>
+      </tr>
+      <tr> 
+        <td>Teljes nev</td>
+        <td><input name="t_uname" type="text" id="t_uname"></td>
+      </tr>
+      <tr> 
+        <td>e-mail</td>
+        <td><input name="t_email" type="text" id="t_email"></td>
+      </tr>
+      <tr>
+        <td>Csoport nev</td>
+        <td><input name="t_group" type="text" id="t_group"></td>
+      </tr>
+      <tr> 
+        <td>Comment</td>
+        <td><input name="t_comment" type="text" id="t_comment"></td>
+      </tr>
+    </table>
+  <p><font size="+3">Chat bealitasok</font></p>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+      <td width="20%">Frisitesi ido (frisiti az oldalt)</td>
+      <td width="80%"><input name="t_refr" type="text" id="t_refr" value="5"></td>
+    </tr>
+    <tr> 
+      <td>Utolso hany msg-et mutassa</td>
+      <td><input name="t_showmsg" type="text" id="t_showmsg" value="100"></td>
+    </tr>
+  </table>
+    <p>
+      <input type="button" name="Button" value="Regisztral" onClick="registralas_ellenorzes()">
+    </p>
+  </form>
+  <p>&nbsp;</p>
+</div>
+<script language="JavaScript" type="text/JavaScript">
+
+function registralas_ellenorzes()
+{
+	var t=document.form_getdata_register;
+	if(t.t_nick.value=="")
+	{
+		alert("kelek toltsd ki Nick-et");
+		t.t_nick.focus();
+		return;
+	}
+	if(t.t_passw.value!=t.t_passw2.value)
+	{
+		alert("kelek toltsd ki Nick-et");
+		t.t_nick.focus();
+		return;
+	}
+	//ha idaig elertunk akkor elkuldhetjuk az adatokat
+	t.submit();
+}
+</script>
+
+</body>
+</html>

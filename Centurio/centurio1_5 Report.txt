@@ -1,0 +1,199 @@
+Movie Report
+------------
+
+Frame #    Frame Bytes    Total Bytes    Page
+-------    -----------    -----------    ---------------
+    1         49288          49288        Scene 1
+    2             2          49290          2
+    3         35733          85023          3
+    4             2          85025          4
+    5         19277         104302          5
+    6           611         104913          6
+    7          4097         109010          7
+    8           229         109239          8
+    9            15         109254          9
+   10           229         109483          10
+   11           891         110374          11
+   12        572852         683226          12
+   13           488         683714          13
+   14            83         683797          14
+   15         10427         694224          15
+
+Page                       Shape Bytes    Text Bytes
+-----------------------    -----------    ----------
+Scene 1                          42             0
+
+Embedded Objects                408             0
+
+Symbol                     Shape Bytes    Text Bytes
+-----------------------    -----------    ----------
+gamirth2_MusicControll           35             0
+Symbol 52                        36             0
+copy                              0             0
+jump                              0             0
+result_you_lost                   0             0
+machine_wins                      0             0
+result_equal                      0             0
+Farkas_nyero                      0             0
+Nyuszi_nyert                    128            95
+Mask                              0             0
+Vilagito farkas                   0             0
+Vilagito nyuszi                   0             0
+nyuszika                          0             0
+farkas                            0             0
+PlayButton                     1634           113
+ReplayEqualButton              1494           111
+ReplayLostButton               1953           111
+hexlogo                           0            41
+ugral                           437             0
+gamirth2_SoundMovie               0             0
+gamirth2_Help                   433         13892
+gamirth2_RestartLevel           555             0
+gamirth2_MoreButtonBg            65             0
+gamirth2_MoreButtonBgA            0             0
+gamirth2_SaveGame               356             0
+gamirth2_LoadGame               364             0
+gamirth2_Led                    642             0
+gamirth2_ErrorAddress             0           138
+gamirth2_HelpPanelTitle         320           234
+gamirth2_Back                   252            41
+gamirth2_ArrowRightM              0             0
+gamirth2_ArrowRight             382             0
+gamirth2_ArrowLeftM               0             0
+gamirth2_ArrowLeft              348             0
+gamirth2_LoaderBoard              0           590
+gamirth2_Caller                  36             0
+gamirth2_Subscribe             1183           644
+gamirth2_SubscribeTitle         149           288
+gamirth2_SubscribeB             217            54
+gamirth2_SubscribeText            0           453
+gamirth2_AbsoluteTopName          0             0
+gamirth2_AbsoluteTop              0             0
+gamirth2_PersonalTop              0            36
+gamirth2_SubscribeName           67            80
+gamirth2_ScoreBoard               0           330
+gamirth2_Frame                  893             0
+gamirth2_Cooler                  95             0
+gamirth2_Extra2Bind             118             0
+gamirth2_Extra1Bind             146             0
+gamirth2_QualityM               520             0
+gamirth2_Quality                  0             0
+gamirth2_QualityBlack            32             0
+gamirth2_Logo                    68             0
+gamirth2_LogoM                  796             0
+gamirth2_LogoShine               57             0
+gamirth2_MoreButtonsAnim         39             0
+gamirth2_MoreButtons             55             0
+gamirth2_MoreButtonsTitle       651             0
+gamirth2_TopScore                 0           106
+gamirth2_PauseM                   0             0
+gamirth2_Pause                  287            40
+gamirth2_Extra1M                  0             0
+gamirth2_Extra1                 281            37
+gamirth2_StartM                   0             0
+gamirth2_Start                  341           187
+gamirth2_HelpM                    0             0
+gamirth2_HelpB                 1054             0
+gamirth2_InfoM                    0             0
+gamirth2_InfoB                  967             0
+gamirth2_SoundM                  35             0
+gamirth2_Sound                  533             0
+gamirth2_MusicM                  35             0
+gamirth2_Music                  585             0
+gamirth2_Paused                  68             0
+gamirth2_PausedB                356            40
+gamirth2_Info                  2292          1382
+gamirth2_InfoPanelTitle         153           114
+gamirth2_CallerLogin              0             0
+gamirth2_LoadPanel                0            40
+gamirth2_LoadPanelTitle         153           114
+gamirth2_LoadSlot                 0            52
+gamirth2_LoadSlotB                0             0
+gamirth2_SavePanel              320            40
+gamirth2_SavePanelTitle         153           114
+gamirth2_SaveSlot                 0            52
+gamirth2_SaveSlotB              134             0
+gamirth2_ProgrammedControll       35             0
+gamirth2_SaveNamePanel          316           102
+gamirth2_SaveNamePanelTitle      153           135
+gamirth2_SaveNameOk             130            84
+gamirth2_Splash                   0             0
+gamirth2_Info_QuickHelp           0             0
+gamirth2_Info_QuickHelpFull        0             0
+gamirth2_Info_QuickHelpAlpha       61             0
+gamirth2_Info_QuickHelpInside       66           118
+gamirth2_Help_QuickHelp           0             0
+gamirth2_Help_QuickHelpFull        0             0
+gamirth2_Help_QuickHelpAlpha        0             0
+gamirth2_Help_QuickHelpInside        0           121
+gamirth2_MoreButtons_QuickHelp        0             0
+gamirth2_MoreButtons_QuickHelpFull        0             0
+gamirth2_MoreButtons_QuickHelpAlpha        0             0
+gamirth2_MoreButtons_QuickHelpInside        0            69
+gamirth2_LevelRestart_QuickHelp        0             0
+gamirth2_LevelRestart_QuickHelpFull        0             0
+gamirth2_LevelRestart_QuickHelpAlpha       61             0
+gamirth2_LevelRestart_QuickHelpInside       66            72
+gamirth2_Save_QuickHelp           0             0
+gamirth2_Save_QuickHelpFull        0             0
+gamirth2_Save_QuickHelpAlpha        0             0
+gamirth2_Save_QuickHelpInside        0            74
+gamirth2_Load_QuickHelp           0             0
+gamirth2_Load_QuickHelpFull        0             0
+gamirth2_Load_QuickHelpAlpha       61             0
+gamirth2_Load_QuickHelpInside       66            78
+gamirth2_Subscribe_QuickHelp        0             0
+gamirth2_Subscribe_QuickHelpFull        0             0
+gamirth2_Subscribe_QuickHelpAlpha       61             0
+gamirth2_Subscribe_QuickHelpInside       66           146
+gamirth2_Music_QuickHelp         35             0
+gamirth2_Music_QuickHelpFull        0             0
+gamirth2_Music_QuickHelpAlpha       61             0
+gamirth2_Music_QuickHelpInside       66            78
+gamirth2_FX_QuickHelp             0             0
+gamirth2_FX_QuickHelpFull         0             0
+gamirth2_FX_QuickHelpAlpha       61             0
+gamirth2_FX_QuickHelpInside       66            86
+gamirth2_Quality_QuickHelp        0             0
+gamirth2_Quality_QuickHelpFull        0             0
+gamirth2_Quality_QuickHelpAlpha       61             0
+gamirth2_Quality_QuickHelpInside       66           108
+gamirth2_PreviousPage_QuickHelp       75             0
+gamirth2_PreviousPage_QuickHelpFull        0             0
+gamirth2_PreviousPage_QuickHelpAlpha       59             0
+gamirth2_PreviousPage_QuickHelpInside       64            58
+gamirth2_NextPage_QuickHelp        0             0
+gamirth2_NextPage_QuickHelpFull        0             0
+gamirth2_NextPage_QuickHelpAlpha       59             0
+gamirth2_NextPage_QuickHelpInside       65            67
+gamirth2_KeyM                     0             0
+gamirth2_Key                      0             0
+mezo                             89             0
+mgomb                            50             0
+player1figurin                    0             0
+player2figurin                    0             0
+hvalaszto                        33             0
+vvalaszto                        33             0
+background1                       0             0
+background2                       0             0
+background3                       0             0
+background4                       0             0
+background5                       0             0
+
+Bitmap                     Compressed  Original    Compression
+-----------------------    ----------  ----------  ------------
+back6                         115477      188496   Lossless
+back5                         137294      189992   Lossless
+back4                         122950      191516   Lossless
+back3                          58744      190512   Lossless
+back2                         127107      190500   Lossless
+player2p                        4954        6732   Lossless
+player1p                        2183        3400   Lossless
+
+Font Name                  Bytes       Characters
+-----------------------    --------    -----------
+Zoltan                        906         ABEILNUW
+Keypunch Bold                1113         Kaeklptvyz·ıˆ
+Keypunch                     1767         !.EKNaegjklmnprtvyz⁄·ıˆ
+Metal On Metal                862        AEGHNOX
+Bank Gothic Medium BT       20708         !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ

@@ -1,0 +1,41 @@
+.default_style {
+padding: 2px;
+border: 1px;
+border-style: solid;
+border-color: #D8D8D8;
+font-family: Arial;
+color: #000000;
+font-size: 12px;
+text-align: left;
+overflow: hidden;
+}
+.subheading {
+padding: 2px;
+border: 1px;
+border-style: solid;
+border-color: #D8D8D8;
+font-family: Arial;
+font-weight: bold;
+color: #000000;
+font-size: 12px;
+text-align: left;
+overflow: hidden;
+}
+.heading {
+padding: 2px;
+border: 1px;
+border-style: solid;
+border-color: #D8D8D8;
+font-family: Arial;
+font-weight: bold;
+color: #000000;
+font-size: 16px;
+text-align: center;
+overflow: hidden;
+}
+.plain_style {
+font-family: Verdana;
+color: #000000;
+font-size: 11px;
+overflow: hidden;
+}

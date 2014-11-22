@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>chat ablak magabanfoglal mindent a chat-eleshez</title>
+<style type="text/css">
+.chat_fill {
+	top:0px;
+	left:0px;
+	height: 100%;
+	width: 100%;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0">
+<!-- a hatter kep es bealitasok -->
+<DIV name="layer_background">
+ <img name="picture" src="back.jpg" style="position:absolute; top:0px; left:0px; width:100%; height:100%">
+</DIV>
+
+<!-- itten jelennek meg majd a kapott/kuldott msg-ek -->
+<DIV name="layer_kapott" style="position: absolute; top:3.5%; left:4.3%; width: 91%; height: 72.5%;">
+	<iframe src="kapott.php" name="frame_kapott" scrolling="YES" class="chat_fill" bgcolor="" allowtransparency=true>
+	</iframe>
+</DIV>
+<!-- itten jelenik meg az ablak amelyben a msg-et kuldod -->
+<DIV name="layer_kuld" style="position: absolute; top:81.5%; left:4.7%; width: 90.5%; height: 12%;">
+	<iframe src="kuld.php" name="frame_kuldott" scrolling="no" class="chat_fill" bgcolor="" allowtransparency=true>
+	</iframe>
+</DIV>
+<!-- ez nem kell megjelenjen ez a dinakus resze az oldalnak ami egyfolytaban valtozik es nincs ertelme -->
+
+<DIV name="layer_refresh" style="position: absolute; top:50%; left:0%; width: 1px; height:1px;">
+	<iframe src="refresh.php" name="frame_refresh" scrolling="no" class="chat_fill" bgcolor="">
+	</iframe>
+</DIV>
+<!--
+-->
+
+<!--
+<DIV name="layer_refresh" style="position: absolute; top:50%; left:0%; width: 100%; height: 20%;">
+	<iframe src="refresh.php" name="frame_refresh" class="chat_fill">
+	</iframe>
+</DIV>
+-->
+</body>
+</html>

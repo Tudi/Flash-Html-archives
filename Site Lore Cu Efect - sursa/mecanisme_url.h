@@ -1,0 +1,12 @@
+studii_url="test.htm";
+refulare_url="test.htm";
+regresia_url="test.htm";
+proiectia_url="test.htm";
+sublimarea_url="test.htm";
+negarea_url="test.htm";
+rationalizarea_url="test.htm";
+izolarea_url="test.htm";
+anulare_url="test.htm";
+introiectia_url="test.htm";
+retractia_url="test.htm";
+formatia_url="test.htm";

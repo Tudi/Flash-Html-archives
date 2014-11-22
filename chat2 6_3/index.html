@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Jo szorakozast kinunk a jo-zsa csatin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+if(document.images) 
+  {
+    pics = new Array();
+    pics[01] = new Image();
+    pics[01].src = "b_login.jpg";
+    pics[02] = new Image();
+    pics[02].src = "b_login_over.jpg";
+//    pics[03] = new Image();
+//    pics[03].src = "b_login_down.jpg";
+
+    pics[04] = new Image();
+    pics[04].src = "b_register.jpg";
+    pics[05] = new Image();
+    pics[05].src = "b_register_over.jpg";
+//    pics[06] = new Image();
+//    pics[06].src = "b_register_down.jpg";
+  }
+
+function changer(from,to) 
+   {if(document.images) document.images[from].src = pics[to].src;}
+
+function wasclicked(from,to) 
+{
+	if(document.images)
+	{
+//		document.images[from].src = pics[to].src;
+		if(from=="b_login")document.form_login.submit();
+		if(from=="b_register")document.location="register_user_getdata.htm";
+	}
+}
+
+function resize_fields()
+ {
+  var text1=document.form_login.text_nick.style;
+  var text2=document.form_login.text_passw.style;
+  var b_login=document.form_login.b_login.style;
+  var b_register=document.images["b_register"].style;
+  var doc=document.body;
+  var ct=0;
+
+  text1.Height=(doc.offsetHeight-ct)*7/100;
+  text1.width=doc.offsetWidth*35/100;
+  text1.fontSize=text1.Height*0.8;
+
+  text2.Height=(doc.offsetHeight-ct)*7/100;
+  text2.width=doc.offsetWidth*35/100;
+  text2.fontSize=text2.Height*0.8;
+
+  b_login.height=(doc.offsetHeight-ct)*0.118;
+  b_login.width=doc.offsetWidth*0.62;
+
+  b_register.height=(doc.offsetHeight-ct)*0.116;
+  b_register.width=doc.offsetWidth*0.91;
+//  alert(doc.offsetHeight);
+ }
+  //-->
+</SCRIPT>
+<style type="text/css">
+<!--
+.trans {
+	background-color: transparent;
+	border: none 1px #999999;
+	font-family: Tahoma;
+	text-transform: capitalize;
+	color: #336699; 
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+-->
+</style>
+</head>
+
+<body leftmargin="0px" topmargin="0px" onResize="resize_fields()" onLoad="resize_fields()" bottommargin="0" rightmargin="0" marginheight="1" marginwidth="1">
+<div name="layer_background" style="width:100%;height:100%;top:0px;left:0px">
+	<input name="background_image" type="image" src="login_back.jpg" style="width:100%;height:100%;top:0px;left:0px">
+</div>
+<form name="form_login" method="post" action="login.php">
+ 	<div name="layer_text1" id="layer_text1" style="position:absolute;top:40%;left:53%">
+  		<input name="text_nick" type="text" id="text_nick" size="20" maxlength="20" class="trans">
+  	</div>
+ 	<div name="layer_text2" style="position:absolute;top:52%;left:53%">
+  		<input name="text_passw" type="password" id="text_passw" size="20" maxlength="20" class="trans">
+  	</div>
+ 	<div name="layer_button_submit" style="position:absolute;top:66%;left:18%">
+		<img name="b_login" id="b_login" border="0" src="b_login.jpg" alt="Login and start chatting" onMouseOver="changer('b_login',02)" onMouseOut="changer('b_login',01)"  onClick="wasclicked('b_login',03)">
+  	</div>
+</form>
+<div name="layer_button_register" style="position:absolute;top:86%;left:3.5%">
+	<img name="b_register" id="b_register" border="0" src="b_register.jpg" alt="Register your nick so nobody can use it" onMouseOver="changer('b_register',05)" onMouseOut="changer('b_register',04)"  onClick="wasclicked('b_register',06)">
+</div>
+</body>
+</html>
